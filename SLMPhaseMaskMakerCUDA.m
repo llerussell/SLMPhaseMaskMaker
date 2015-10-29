@@ -1,6 +1,6 @@
 function SLMPhaseMaskMakerCUDA(varargin)
 % Lloyd Russell 20151028
-% Implements a weighted GS algorithm using Martin Perssons HOTlab DLL
+% Implements a weighted GS algorithm using Martin Persson's HOTlab DLL
 % (https://github.com/MartinPersson/HOTlab)
 % 
 % Input arguments can be:
