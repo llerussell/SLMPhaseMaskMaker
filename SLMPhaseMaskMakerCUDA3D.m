@@ -291,6 +291,15 @@ for f = 1:NumFiles
     end
     
     if Do3DTransform
+        % NOTE, TODO: all the below should be replaced with a simple application
+        % of a precomputed transformation. See for ideas
+        %    http://uk.mathworks.com/help/vision/examples/3-d-point-cloud-registration-and-stitching.html
+        %    tform = pcregrigid(moving, fixed, 'Metric','pointToPlane','Extrapolate', true);
+        %    ptCloudAligned = pctransform(ptCloudCurrent,tform);
+        
+        
+        
+        
         x = x_i;
         y = y_i;
 
